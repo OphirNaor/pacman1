@@ -24,7 +24,7 @@ function init() {
     printMat(gBoard, '.board-container');
     gGame.isOn = true;
     updateScore(0);
-    setInterval(addCherry, 1000);
+//     setInterval(addCherry, 1000);
 }
 
 function buildBoard() {
