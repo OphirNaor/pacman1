@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color:white;
+  box-shadow: 13px 5px 13px 5px rgba(78,126,255,0.83);
+  
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* 
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.restart {
+  background-color: lightskyblue;
+  border-radius: 12px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+
+}
+
+.modal {
+  background-color: #333;
+  color:lightsalmon;
+  border-radius: 10px;
+  margin: auto;
+  padding: 50px;
+  font: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.hide {
+  display: none;
+}
+
+.score {
+  font-family: Georgia, sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  text-align: center;
+  color: lightsalmon;
+}
+
+.pacman {
+  font-family: Georgia, sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  text-align: center;
+  color: lightsalmon;
+  
+
+ 
+}
